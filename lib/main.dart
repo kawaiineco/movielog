@@ -4,6 +4,5 @@ import 'package:movielog/movie_log_app.dart';
 import 'dart_practice.dart';
 
 void main() {
-  runDartPractice();
   runApp(const MovieLogApp());
 }
