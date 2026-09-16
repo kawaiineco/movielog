@@ -11,9 +11,15 @@ class StartScreen extends StatelessWidget {
       body: SafeArea(
         child: Column(
           children: [
+            const SizedBox(height: 45),
+            const WeekGreeting(),
+            const SizedBox(height: 65),
             const StartIcon(),
+            const SizedBox(height: 65),
             const StartTitle(),
+            const Spacer(),
             const StartButton(),
+            const SizedBox(height: 24),
           ],
         ),
       ),
